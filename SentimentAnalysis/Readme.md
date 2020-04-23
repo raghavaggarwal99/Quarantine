@@ -1,0 +1,2 @@
+For documentation of the SentimentAnalyser Funntion, Refer to
+https://medium.com/analytics-vidhya/simplifying-social-media-sentiment-analysis-using-vader-in-python-f9e6ec6fc52f
