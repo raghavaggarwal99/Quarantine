@@ -11,3 +11,7 @@ You can use any one of them Cosine Similarity or Page Ranking Algorithm(Used by 
 ## 2. Sentiment Analysis
 
 This is used for categorising any text(review/tweets) whether it is a positive review or a negative review
+
+## 3. Cosine Similarity
+
+This is used to find similarities between two texts. Pretty starightforward algo
