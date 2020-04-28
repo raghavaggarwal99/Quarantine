@@ -2,26 +2,28 @@
 This blog will solve all your doubts regarding this algo
 1. https://medium.com/@pratikbarhate/latent-dirichlet-allocation-for-beginners-a-high-level-intuition-23f8a5cbad71
 
-
-https://blog.echen.me/2011/08/22/introduction-to-latent-dirichlet-allocation/
-
+## Example How LDA Works:
 Sample documents are (each line represents a document):
-I like to eat broccoli and bananas.
-I ate a banana and spinach smoothie for breakfast.
-Chinchillas and kittens are cute.
-My sister adopted a kitten yesterday.
-Look at this cute hamster munching on a piece of broccoli.
-Suppose we choose k=2 (number of topics are 2) for our model:
-Topic A: 30% broccoli, 15% bananas, 10% breakfast, 10% munching, …… (we could interpret topic A to be about food)
-Topic B: 20% chinchillas, 20% kittens, 20% cute, 15% hamster, ……… (we could interpret topic B to be about cute animals)
+1. I like to eat broccoli and bananas.
+2. I ate a banana and spinach smoothie for breakfast.
+3. Chinchillas and kittens are cute.
+4. My sister adopted a kitten yesterday.
+5. Look at this cute hamster munching on a piece of broccoli.
+
+Suppose we choose **k=2 (number of topics are 2)** for our model:
+
+**Topic A**: 30% broccoli, 15% bananas, 10% breakfast, 10% munching, …… (we could interpret topic A to be about food)
+**Topic B**: 20% chinchillas, 20% kittens, 20% cute, 15% hamster, ……… (we could interpret topic B to be about cute animals)
+
 Now some new document can be tagged with the above-given topics using the observations made by the LDA model.
-Banana and spinach smoothie is a good combination for a healthy breakfast.
-Kittens look cute as they munch on a bowl of milk, bananas, and chocolates.
-Here, we can say that sentence 1 is 100% Topic A and sentence 2 is 40% Topic B with 60% Topic A.
+1. Banana and spinach smoothie is a good combination for a healthy breakfast.
+2. Kittens look cute as they munch on a bowl of milk, bananas, and chocolates.
 
+Here, we can say that **sentence 1** is **100% Topic A** and **sentence 2** is **40% Topic B** with **60% Topic A**
 
+## More In Detail
 
-To use a topic modeling technique, you need to provide (1) a document-term matrix and (2) the number of topics you would like the algorithm to pick up.
+To use a topic modeling technique, you need to provide (1) a **document-term matrix** and (2) **number of topics**  you would like the algorithm to pick up.
 
 Once the topic modeling technique is applied, your job as a human is to interpret the results and see if the mix of words in each topic make sense. If they don't make sense, you can try changing up the number of topics, the terms in the document-term matrix, model parameters, or even try a different model.
 
