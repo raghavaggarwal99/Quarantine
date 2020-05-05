@@ -29,6 +29,7 @@ Once the topic modeling technique is applied, your job as a human is to interpre
 
 LDA is a probabilistic method. For each document the results give us a mix of topics that make up that document. To be precise, we get a probability distribution over the k topics for each document. Each word in the document is attributed to a particular topic with probability given by this distribution.
 
+![LDA DIAGRAM](lda.png)
 
 The model is Bayesian, and doesn’t admit zero probabilities either for the topic distributions or for the word distributions. This means that in every document each topic has a non-zero probability, and in every topic each word in the vocabulary has a non-zero probability. However, these probabilities can be vanishingly small. Indeed, the model is set up so as to try and encourage most of the probabilities to be very close to zero: we want results that suggest each document is made up a small number of topics, and each topic is primarily composed of a small number of main words.
 
