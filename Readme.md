@@ -36,5 +36,5 @@ It is one of the most fun thing that I did till now. I think this is the boundar
 ## 8. K-Clustering and 9. DBSCAN
 Both Clustering algos implemented pretty easily each one has it's own advantages
 
-![](Screenshot from 2020-05-14 01-23-13.png)
+![](dbscan.png)
 
