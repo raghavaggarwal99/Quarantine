@@ -28,5 +28,11 @@ I have not used any Deep Learning Technique for this, Just a simple Math Algo in
 ## 5. Logistic Regression
 Not able to commit for a while, I don't like neural networks part. I found some cool concepts of NLP like Intent Classification and Emotion Analysis but I don't want to do it with keras and implementing the neural networks. Anyways Here is a Logistic Regression for now. It is coded from scratch. Haven't used the STL.
 
+## 6. Jaccard Index
+It is a simple math formula that you can find on googling. 
+
+## 7. Word2vec
+It is one of the most fun thing that I did till now. I think this is the boundary line to the start of neural network haha
+
 
 
