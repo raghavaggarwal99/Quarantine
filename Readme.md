@@ -38,3 +38,13 @@ Both Clustering algos implemented pretty easily each one has it's own advantages
 
 ![](dbscan.png)
 
+## 10. Heirarchical Clustering
+This is the nest clustering after KNN. It contains some theoretical concepts like Dendogram which you should know of
+
+## 11. Gaussian_Mixture
+This is a basic probability ducntion algorithm which many of us have studied like normal distribution curves
+
+
+
+
+
